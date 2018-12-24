@@ -5,6 +5,9 @@
 ## Build Setup
 
 ``` bash
+
+cnpm install axios
+
 # install dependencies
 npm install
 
