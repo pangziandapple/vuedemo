@@ -2,8 +2,8 @@
     <el-container style="height:100%">
         <el-aside>
           <el-menu style="height:100%">
-            <el-menu-item index="2">
-              <i class="el-icon-menu"></i>
+            <el-menu-item index="userList" router="true">
+              <i class="el-icon-menu" ></i>
               <span slot="title">导航二</span>
             </el-menu-item>
             <el-menu-item index="3">
@@ -18,7 +18,9 @@
         </el-aside>
         <el-container>
           <el-header class="header" height="20px">标题</el-header>
-          <el-main>Main</el-main>
+          <el-main>
+            <router-view></router-view>
+          </el-main>
           <el-footer class="footer" >备案号</el-footer>
         </el-container>
     </el-container>
